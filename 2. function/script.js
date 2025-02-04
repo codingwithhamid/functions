@@ -12,5 +12,6 @@ return juice;
 }
 const applejuice = fruitProcessor(2 , 3);
 console.log(applejuice);
+
 const orangejuice = fruitProcessor(3 , 2);
 console.log(orangejuice)
