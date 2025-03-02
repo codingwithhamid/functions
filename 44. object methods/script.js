@@ -21,7 +21,7 @@ calcAge: function(){
 },
 
 getSummary: function(){
-    return `${jonas.firstName} is a ${jonas.age} years old ${jonas.job} ,  and he has ${this.haveDrivingLisence ? 'a' : 'no'}  driver'slisence`
+    return `${jonas.firstName} is a ${jonas.age} years old ${jonas.job} ,  and he has ${this.haveDrivingLisence ? 'a' : 'no'}  driver's lisence`
 },
 
 }
@@ -32,7 +32,7 @@ console.log(jonas.age);
 console.log(jonas.age);
 
 //Challenge
-//Hamid is a 18 years old teacher
+//Hamid is a 18 years old teacher.
 
 console.log(jonas.getSummary());
 // same as before getSummary but a no differnce 
